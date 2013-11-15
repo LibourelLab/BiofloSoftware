@@ -1,4 +1,0 @@
-Bioreactor software source files are compiled with Labview version 12.0
-Open 'Manager.lvproj' to access files
-To run program from project, open and run 'Spash screen.vi' located in 'Manager Launcher.lvlib'
-To run program from source files, open 'Spash screen.vi' located in 'Manager Launcher' sub directory 

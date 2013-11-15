@@ -1,3 +1,0 @@
-Bioreactor software Installer for Windows XP Service Pack 2 or Later 
-To install run 'setup.exe' and follow user prompts
-Note: Software requires the installation of Python verion 2.5
