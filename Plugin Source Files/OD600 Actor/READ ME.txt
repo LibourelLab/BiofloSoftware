@@ -1,0 +1,1 @@
+Plugin reads absorbance values from a Thermo Fisher Scientific SPECTRONIC20D+ spectrophotometer and estimates growth rates.
