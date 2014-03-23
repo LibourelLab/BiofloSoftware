@@ -1,2 +1,0 @@
-import math
-TempSetpoint=37.0+2.5*math.sin(2.0*math.pi*(CurrentTime-StartTime)*(1.0/7200.0))
