@@ -10,160 +10,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Bioreactor" Type="Folder">
-			<Item Name="Bioreactor.lvlibp" Type="LVLibp" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp">
-				<Item Name="Messages for Bioreactor" Type="Folder">
-					<Item Name="Initialize Msg.lvclass" Type="LVClass" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/Bioreactor Messages/Initialize Msg/Initialize Msg.lvclass"/>
-					<Item Name="Log Data Msg.lvclass" Type="LVClass" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/Bioreactor Messages/Log Data Msg/Log Data Msg.lvclass"/>
-					<Item Name="Read Output Msg.lvclass" Type="LVClass" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/Bioreactor Messages/Read Output Msg/Read Output Msg.lvclass"/>
-					<Item Name="Read Setpoint Msg.lvclass" Type="LVClass" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/Bioreactor Messages/Read Setpoint Msg/Read Setpoint Msg.lvclass"/>
-					<Item Name="Read Value Msg.lvclass" Type="LVClass" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/Bioreactor Messages/Read Value Msg/Read Value Msg.lvclass"/>
-					<Item Name="Update Indicators Msg.lvclass" Type="LVClass" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/Bioreactor Messages/Update Indicators Msg/Update Indicators Msg.lvclass"/>
-					<Item Name="Update Setpoint Msg.lvclass" Type="LVClass" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/Bioreactor Messages/Update Setpoint Msg/Update Setpoint Msg.lvclass"/>
-					<Item Name="Write Setpoint Msg.lvclass" Type="LVClass" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/Bioreactor Messages/Write Setpoint Msg/Write Setpoint Msg.lvclass"/>
-				</Item>
-				<Item Name="Bioreactor.lvclass" Type="LVClass" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/Bioreactor/Bioreactor.lvclass"/>
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Check Special Tags.vi"/>
-				<Item Name="Clear Errors.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="Error Code Database.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="Find Tag.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler CORE.vi"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="TagReturnType.ctl" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Lock Async.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Lock Async.vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="../../builds/Plugins/Bioreactor/Bioreactor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
-			</Item>
-		</Item>
-		<Item Name="Python Protocol" Type="Folder">
-			<Item Name="lvpython.dll" Type="Document" URL="../../builds/Plugins/Python Protocol/lvpython.dll"/>
-			<Item Name="Python Protocol.lvlibp" Type="LVLibp" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp">
-				<Item Name="Messages for Python Protocol" Type="Folder">
-					<Item Name="Change Status Msg.lvclass" Type="LVClass" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/Python Protocol Messages/Change Status Msg/Change Status Msg.lvclass"/>
-					<Item Name="Compile Protocol Msg.lvclass" Type="LVClass" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/Python Protocol Messages/Compile Protocol Msg/Compile Protocol Msg.lvclass"/>
-					<Item Name="Insert Variable Msg.lvclass" Type="LVClass" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/Python Protocol Messages/Insert Variable Msg/Insert Variable Msg.lvclass"/>
-					<Item Name="New Protocol Msg.lvclass" Type="LVClass" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/Python Protocol Messages/New Protocol Msg/New Protocol Msg.lvclass"/>
-					<Item Name="Open Protocol Msg.lvclass" Type="LVClass" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/Python Protocol Messages/Open Protocol Msg/Open Protocol Msg.lvclass"/>
-					<Item Name="Run Protocol Msg.lvclass" Type="LVClass" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/Python Protocol Messages/Run Protocol Msg/Run Protocol Msg.lvclass"/>
-					<Item Name="Save Protocol Msg.lvclass" Type="LVClass" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/Python Protocol Messages/Save Protocol Msg/Save Protocol Msg.lvclass"/>
-					<Item Name="Show Variables Msg.lvclass" Type="LVClass" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/Python Protocol Messages/Show Variables/Show Variables Msg.lvclass"/>
-				</Item>
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Check Special Tags.vi"/>
-				<Item Name="Clear Errors.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="Error Code Database.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="Find Tag.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler CORE.vi"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="PYTHON Close Session__ogtk.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/user.lib/_OpenG.lib/labpython/labpython.llb/PYTHON Close Session__ogtk.vi"/>
-				<Item Name="PYTHON Compile Script__ogtk.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/user.lib/_OpenG.lib/labpython/labpython.llb/PYTHON Compile Script__ogtk.vi"/>
-				<Item Name="PYTHON Execute Script__ogtk.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/user.lib/_OpenG.lib/labpython/labpython.llb/PYTHON Execute Script__ogtk.vi"/>
-				<Item Name="PYTHON Get Float Data__ogtk.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/user.lib/_OpenG.lib/labpython/labpython.llb/PYTHON Get Float Data__ogtk.vi"/>
-				<Item Name="PYTHON New Session__ogtk.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/user.lib/_OpenG.lib/labpython/labpython.llb/PYTHON New Session__ogtk.vi"/>
-				<Item Name="Python Protocol.lvclass" Type="LVClass" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/Python Protocol/Python Protocol.lvclass"/>
-				<Item Name="PYTHON Session Refnum__ogtk.ctl" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/user.lib/_OpenG.lib/labpython/labpython.llb/PYTHON Session Refnum__ogtk.ctl"/>
-				<Item Name="PYTHON Set Float Data__ogtk.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/user.lib/_OpenG.lib/labpython/labpython.llb/PYTHON Set Float Data__ogtk.vi"/>
-				<Item Name="PYTHON Set Script Text__ogtk.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/user.lib/_OpenG.lib/labpython/labpython.llb/PYTHON Set Script Text__ogtk.vi"/>
-				<Item Name="PYTHON UTIL Format Error Code__ogtk.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/user.lib/_OpenG.lib/labpython/labpython.llb/PYTHON UTIL Format Error Code__ogtk.vi"/>
-				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="subFile Dialog.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="TagReturnType.ctl" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="../../builds/Plugins/Python Protocol/Python Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
-			</Item>
-		</Item>
-		<Item Name="Time Protocol" Type="Folder">
-			<Item Name="Time Protocol.lvlibp" Type="LVLibp" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp">
-				<Item Name="Messages for Time Protocol" Type="Folder">
-					<Item Name="Change Status Msg.lvclass" Type="LVClass" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/Time Protocol Messages/Change Status Msg/Change Status Msg.lvclass"/>
-					<Item Name="Open Protocol Msg.lvclass" Type="LVClass" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/Time Protocol Messages/Open Protocol Msg/Open Protocol Msg.lvclass"/>
-					<Item Name="Run Protocol Msg.lvclass" Type="LVClass" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/Time Protocol Messages/Run Protocol Msg/Run Protocol Msg.lvclass"/>
-				</Item>
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Check Special Tags.vi"/>
-				<Item Name="Clear Errors.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Close File+.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Close File+.vi"/>
-				<Item Name="compatReadText.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/_oldvers/_oldvers.llb/compatReadText.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="Error Code Database.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="Find First Error.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Find First Error.vi"/>
-				<Item Name="Find Tag.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler CORE.vi"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Open File+.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Open File+.vi"/>
-				<Item Name="Read File+ (string).vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Read File+ (string).vi"/>
-				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
-				<Item Name="Read Lines From File.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Read Lines From File.vi"/>
-				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="subFile Dialog.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="TagReturnType.ctl" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="Time Protocol.lvclass" Type="LVClass" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/Time Protocol/Time Protocol.lvclass"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="../../builds/Plugins/Time Protocol/Time Protocol.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
-			</Item>
-		</Item>
 		<Item Name="Manager.lvlib" Type="Library" URL="../Manager.lvlib"/>
 		<Item Name="PluginInterface.lvlibp" Type="LVLibp" URL="../../PluginInterface/PluginInterface.lvlibp">
 			<Item Name="PluginInterface.lvclass" Type="LVClass" URL="../../PluginInterface/PluginInterface.lvlibp/PluginInterfaceClass/PluginInterface.lvclass"/>
@@ -237,36 +83,6 @@
 				<Item Name="Init Actor Queues FOR TESTING ONLY.vi" Type="VI" URL="../../PluginInterface/Actor Framework.lvlibp/Actor/Init Actor Queues FOR TESTING ONLY.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../PluginInterface/Actor Framework.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
-			<Item Name="Actor.lvclass" Type="LVClass" URL="../../builds/Plugins/Bioreactor/Actor Framework.lvlibp/Actor/Actor.lvclass"/>
-			<Item Name="Actor.lvclass" Type="LVClass" URL="../../builds/Plugins/Python Protocol/Actor Framework.lvlibp/Actor/Actor.lvclass"/>
-			<Item Name="Actor.lvclass" Type="LVClass" URL="../../builds/Plugins/Time Protocol/Actor Framework.lvlibp/Actor/Actor.lvclass"/>
-			<Item Name="Enqueue.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Actor Framework.lvlibp/Message Enqueuer/Enqueue.vi"/>
-			<Item Name="Enqueue.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Actor Framework.lvlibp/Message Enqueuer/Enqueue.vi"/>
-			<Item Name="Enqueue.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Actor Framework.lvlibp/Message Enqueuer/Enqueue.vi"/>
-			<Item Name="Message Enqueuer.lvclass" Type="LVClass" URL="../../builds/Plugins/Bioreactor/Actor Framework.lvlibp/Message Enqueuer/Message Enqueuer.lvclass"/>
-			<Item Name="Message Enqueuer.lvclass" Type="LVClass" URL="../../builds/Plugins/Python Protocol/Actor Framework.lvlibp/Message Enqueuer/Message Enqueuer.lvclass"/>
-			<Item Name="Message Enqueuer.lvclass" Type="LVClass" URL="../../builds/Plugins/Time Protocol/Actor Framework.lvlibp/Message Enqueuer/Message Enqueuer.lvclass"/>
-			<Item Name="Message Priority.ctl" Type="VI" URL="../../builds/Plugins/Bioreactor/Actor Framework.lvlibp/Message Enqueuer/Message Priority.ctl"/>
-			<Item Name="Message Priority.ctl" Type="VI" URL="../../builds/Plugins/Python Protocol/Actor Framework.lvlibp/Message Enqueuer/Message Priority.ctl"/>
-			<Item Name="Message Priority.ctl" Type="VI" URL="../../builds/Plugins/Time Protocol/Actor Framework.lvlibp/Message Enqueuer/Message Priority.ctl"/>
-			<Item Name="PluginInterface.lvclass" Type="LVClass" URL="../../builds/Plugins/Bioreactor/PluginInterface.lvlibp/PluginInterfaceClass/PluginInterface.lvclass"/>
-			<Item Name="PluginInterface.lvclass" Type="LVClass" URL="../../builds/Plugins/Python Protocol/PluginInterface.lvlibp/PluginInterfaceClass/PluginInterface.lvclass"/>
-			<Item Name="PluginInterface.lvclass" Type="LVClass" URL="../../builds/Plugins/Time Protocol/PluginInterface.lvlibp/PluginInterfaceClass/PluginInterface.lvclass"/>
-			<Item Name="Read DVR.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/PluginInterface.lvlibp/PluginInterfaceClass/Read DVR.vi"/>
-			<Item Name="Read DVR.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/PluginInterface.lvlibp/PluginInterfaceClass/Read DVR.vi"/>
-			<Item Name="Read DVR.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/PluginInterface.lvlibp/PluginInterfaceClass/Read DVR.vi"/>
-			<Item Name="Read Self Enqueuer.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Actor Framework.lvlibp/Actor/Read Self Enqueuer.vi"/>
-			<Item Name="Read Self Enqueuer.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Actor Framework.lvlibp/Actor/Read Self Enqueuer.vi"/>
-			<Item Name="Read Self Enqueuer.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Actor Framework.lvlibp/Actor/Read Self Enqueuer.vi"/>
-			<Item Name="Read TDMS File Path.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/PluginInterface.lvlibp/PluginInterfaceClass/Read TDMS File Path.vi"/>
-			<Item Name="Read TDMS.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/PluginInterface.lvlibp/PluginInterfaceClass/Read TDMS.vi"/>
-			<Item Name="Send Emergency Stop.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/Actor Framework.lvlibp/Stop Msg/Send Emergency Stop.vi"/>
-			<Item Name="Send Emergency Stop.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/Actor Framework.lvlibp/Stop Msg/Send Emergency Stop.vi"/>
-			<Item Name="Send Emergency Stop.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/Actor Framework.lvlibp/Stop Msg/Send Emergency Stop.vi"/>
-			<Item Name="Write TDMS.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/PluginInterface.lvlibp/PluginInterfaceClass/Write TDMS.vi"/>
-			<Item Name="Write VI Refnum.vi" Type="VI" URL="../../builds/Plugins/Bioreactor/PluginInterface.lvlibp/PluginInterfaceClass/Write VI Refnum.vi"/>
-			<Item Name="Write VI Refnum.vi" Type="VI" URL="../../builds/Plugins/Python Protocol/PluginInterface.lvlibp/PluginInterfaceClass/Write VI Refnum.vi"/>
-			<Item Name="Write VI Refnum.vi" Type="VI" URL="../../builds/Plugins/Time Protocol/PluginInterface.lvlibp/PluginInterfaceClass/Write VI Refnum.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Application" Type="EXE">
@@ -419,19 +235,19 @@
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="Source[1].dest" Type="Str">{693463D8-3BD3-4ECE-82AF-7B5CE7CDFED2}</Property>
 				<Property Name="Source[1].name" Type="Str">Bioreactor.lvlibp</Property>
-				<Property Name="Source[1].tag" Type="Ref">/My Computer/Bioreactor/Bioreactor.lvlibp</Property>
+				<Property Name="Source[1].tag" Type="Ref"></Property>
 				<Property Name="Source[1].type" Type="Str">File</Property>
 				<Property Name="Source[2].dest" Type="Str">{FDA9DBF1-35A1-46C3-875C-C81438A9673A}</Property>
 				<Property Name="Source[2].name" Type="Str">lvpython.dll</Property>
-				<Property Name="Source[2].tag" Type="Ref">/My Computer/Python Protocol/lvpython.dll</Property>
+				<Property Name="Source[2].tag" Type="Ref"></Property>
 				<Property Name="Source[2].type" Type="Str">File</Property>
 				<Property Name="Source[3].dest" Type="Str">{FDA9DBF1-35A1-46C3-875C-C81438A9673A}</Property>
 				<Property Name="Source[3].name" Type="Str">Python Protocol.lvlibp</Property>
-				<Property Name="Source[3].tag" Type="Ref">/My Computer/Python Protocol/Python Protocol.lvlibp</Property>
+				<Property Name="Source[3].tag" Type="Ref"></Property>
 				<Property Name="Source[3].type" Type="Str">File</Property>
 				<Property Name="Source[4].dest" Type="Str">{F0F423D7-2F90-4618-B0A8-471C67C53C5A}</Property>
 				<Property Name="Source[4].name" Type="Str">Time Protocol.lvlibp</Property>
-				<Property Name="Source[4].tag" Type="Ref">/My Computer/Time Protocol/Time Protocol.lvlibp</Property>
+				<Property Name="Source[4].tag" Type="Ref"></Property>
 				<Property Name="Source[4].type" Type="Str">File</Property>
 				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>

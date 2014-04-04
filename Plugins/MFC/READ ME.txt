@@ -1,1 +1,0 @@
-Plugin reads and writes flow rate values and setpoints (units in sccm) to a Pneucleus MediFlo mass flow controller.
